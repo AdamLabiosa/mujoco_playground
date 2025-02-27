@@ -139,6 +139,7 @@ def brax_ppo_config(env_name: str) -> config_dict.ConfigDict:
       "H1InplaceGaitTracking",
       "H1JoystickGaitTracking",
       "Op3Joystick",
+      "NaoV6Joystick"
       "SpotFlatTerrainJoystick",
       "SpotGetup",
       "SpotJoystickGaitTracking",
