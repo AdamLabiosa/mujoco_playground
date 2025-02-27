@@ -151,6 +151,7 @@
 
   <worldbody>
     <light directional="true" diffuse=".8 .8 .8" pos="0 0 10" dir="0 0 -10"/>
+    <camera name="side" pos="0 -1 1" xyaxes="1 0 0 0 1 2" mode="trackcom"/>
     
     <body name="torso" pos="0 0 0.35">
       <site name="accelerometer_site" pos="-0.008 0.00606 0.027"/>
